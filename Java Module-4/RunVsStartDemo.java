@@ -21,10 +21,5 @@ public class RunVsStartDemo {
         thread2.start();
         thread2.join();
         System.out.println("Main after start()");
-
-        /*
-        run() executes like a normal method in the main thread.
-        start() creates a new thread and executes run() concurrently.
-        */
     }
 }
